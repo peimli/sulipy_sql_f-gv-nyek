@@ -1,4 +1,4 @@
 USE northwind;
 SELECT COUNT(*) FROM employees WHERE city = 'Seattle';
 SELECT COUNT(*) FROM employees WHERE job_title = 'Sales Representative';
-SELECT COUNT(*) FROM employees WHERE first_name LIKE 'A';
+SELECT COUNT(*) FROM employees WHERE first_name LIKE 'A%';
