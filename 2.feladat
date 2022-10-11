@@ -1,0 +1,4 @@
+USE northwind;
+SELECT SUM(standard_cost) FROM products;
+SELECT SUM(standard_cost) FROM products WHERE list_price BETWEEN 20 AND 50;
+SELECT SUM(standard_cost) FROM products WHERE category != 'Sauces';
